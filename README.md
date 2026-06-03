@@ -14,14 +14,16 @@
 
 ###  Tech Stack
 
-Python • BeautifulSoup • requests • CSV • JSON • Git/GitHub
+Python • requests • BeautifulSoup • CSV • JSON • logging • SMTP • Git/GitHub
 
 ---
 
-###  Featured Projects
+## Featured Projects
 
-• GitHub Trending Scraper — extracts repository data (name, description, stars, links) and saves it to CSV  
-• World Population Scraper — parses structured table data (country, population, density, etc.) and saves it to CSV
+- **Job Scraper** — scrapes Python job listings, filters them by keywords, saves JSON/CSV output, and sends email alerts for new matching jobs.
+- **Prozorro Tender Monitor** — monitors public tender data, filters relevant tenders, exports results, and sends email alerts.
+- **Trustpilot Review Scraper** — extracts public review data and saves structured output for analysis.
+- **Python Practice Labs** — contains smaller Python exercises for scraping, APIs, CSV/JSON processing, CLI tools, and automation.
 
 ---
 
@@ -35,9 +37,8 @@ Python • BeautifulSoup • requests • CSV • JSON • Git/GitHub
 
 ###  Contact
 
-* Discord: mentx1
-* Telegram: @MENTXq
-  
+* Email: sanabi.dev@proton.me
+
 ---
 
 ⭐ If you find my projects useful, consider giving them a star!
