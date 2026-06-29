@@ -1,166 +1,65 @@
-# Hi there 👋
+# Hi, I'm Sanabi 👋
 
-**Python Automation • Data Extraction • CSV/JSON Tools • Web Scraping**
+**Python · Data Extraction · Automation**
 
-I build small, practical Python tools for data extraction, file conversion, CSV/JSON processing, product catalog scraping, Shopify collection exports, website checks, and automation tasks.
+I build Python tools that pull structured data from the web and turn it into clean, usable outputs — CSV, JSON, SQLite, whatever the job needs.
 
-My current focus is building a portfolio of useful scripts that solve real data problems: extracting structured product data, converting API/JSON responses to clean CSV files, cleaning messy spreadsheets, checking URLs, scanning pages for keywords, and exporting public web data into organized outputs.
+🟢 **Open to freelance** — data extraction, scraping, automation tasks
 
----
-
-## What I’m working on
-
-* Building Python CLI tools for data extraction and automation
-* Working with product catalogs, Shopify collections, public directories, APIs, CSV, and JSON
-* Practicing web scraping with `requests`, `BeautifulSoup`, and basic `Playwright`
-* Improving project structure, error handling, logging, and README quality
-* Preparing for small freelance tasks involving data processing, scraping, and automation
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![requests](https://img.shields.io/badge/requests-2CA5E0?style=flat-square\&logo=python\&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=flat-square\&logo=python\&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square\&logo=playwright\&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV%20%2F%20JSON-555?style=flat-square\&logo=files\&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square\&logo=sqlite\&logoColor=white)
+![Shopify](https://img.shields.io/badge/Shopify%20API-96BF48?style=flat-square\&logo=shopify\&logoColor=white)
 
 ---
 
-## Tech Stack
+## What I build
 
-**Core:** Python, Git, GitHub
-**Data:** CSV, JSON, nested JSON, API responses
-**Web/Data Extraction:** requests, BeautifulSoup, basic Playwright
-**CLI Tools:** argparse, logging, modular project structure
-**Outputs:** CSV reports, JSON files, structured datasets
-**Project Skills:** error handling, validation, clean README documentation
-
----
-
-## Featured Projects
-
-### Shopify Collection Exporter Lite
-
-Python CLI tool that exports product data from selected Shopify collections into a clean CSV file.
-
-Key features:
-
-* Supports one collection URL or multiple collection URLs from a `.txt` file
-* Uses Shopify public `products.json` endpoint when available
-* Exports each product variant as a separate CSV row
-* Includes product title, URL, price, compare-at price, variant title, options, SKU, image URL, availability, source collection, and scrape timestamp
-
-Best fit for: Shopify product data export, selected category scraping, clothing/footwear variant extraction, e-commerce CSV workflows.
+| Project                                                                                           | What it does                                                                                     |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [shopify-collection-exporter-lite](https://github.com/Mr-sanabi/shopify-collection-exporter-lite) | Exports product variants from Shopify collections to CSV — single URL or bulk from a `.txt` file |
+| [csv-to-sqlite-loader](https://github.com/Mr-sanabi/csv-to-sqlite-loader)                         | Imports CSV files into SQLite database tables and verifies the result with SQL row counts        |
+| [website-change-monitor-lite](https://github.com/Mr-sanabi/website-change-monitor-lite)           | Monitors public web pages for content changes using hashing and exports a CSV report             |
+| [product-catalog-scraper](https://github.com/Mr-sanabi/product-catalog-scraper)                   | Scrapes names, prices, ratings and URLs from public category pages with pagination support       |
+| [api-to-csv-tool](https://github.com/Mr-sanabi/api-to-csv-tool)                                   | Fetches JSON from a public API, flattens nested fields, exports clean CSV records                |
+| [public-directory-extractor](https://github.com/Mr-sanabi/public-directory-extractor)             | Extracts listings from multi-page directories into structured CSV output                         |
+| [csv-cleaner-cli](https://github.com/Mr-sanabi/csv-cleaner-cli)                                   | Normalizes headers, trims values, removes duplicates from messy CSV files                        |
+| [url-status-checker](https://github.com/Mr-sanabi/url-status-checker)                             | Audits a list of URLs — status codes, response times, error report in CSV                        |
+| [keyword-page-scanner](https://github.com/Mr-sanabi/keyword-page-scanner)                         | Scans web pages for specified keywords, exports matches and counts to CSV                        |
+| [email-extractor-lite](https://github.com/Mr-sanabi/email-extractor-lite)                         | Finds public emails in page text and `mailto:` links, deduplicates, exports to CSV               |
 
 ---
 
-### Product Catalog Scraper
+## Tech stack
 
-Python CLI tool that extracts product catalog data from public category pages and exports structured CSV output.
-
-Key features:
-
-* Extracts product names, prices, availability, ratings, product URLs, image URLs, source pages, and timestamps
-* Supports pagination
-* Handles request errors
-* Logs scraping progress
-* Saves clean CSV output
-
-Best fit for: public catalog scraping, product data extraction, competitor catalog review, e-commerce data collection.
+**Scraping:** `requests` · `BeautifulSoup` · `Playwright`<br>
+**Data:** `CSV` · `JSON` · nested JSON flattening · REST APIs<br>
+**Database:** `SQLite` · SQL basics<br>
+**CLI:** `argparse` · `logging` · modular project structure<br>
+**Core:** Python · Git · GitHub
 
 ---
 
-### Public Directory Extractor
+## GitHub stats
 
-Python CLI tool that extracts listings from a public multi-page directory and exports structured data to CSV.
-
-Key features:
-
-* Parses repeated listing cards
-* Follows pagination
-* Extracts title, price, availability, rating, product URL, and source page
-* Saves structured CSV output
-* Handles request errors and encoding issues
-
-Best fit for: directory scraping, public listing extraction, multi-page data collection.
-
----
-
-### API to CSV Tool
-
-Python CLI tool that fetches JSON data from a public API, extracts selected fields, flattens nested values, and exports clean records to CSV.
-
-Best fit for: API data extraction, JSON-to-CSV workflows, structured data exports.
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats-omega-eight-68.vercel.app/api?username=Mr-sanabi&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats-omega-eight-68.vercel.app/api?username=Mr-sanabi&show_icons=true&theme=default&hide_border=true&count_private=true"
+    alt="GitHub stats" height="165" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats-omega-eight-68.vercel.app/api/top-langs/?username=Mr-sanabi&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats-omega-eight-68.vercel.app/api/top-langs/?username=Mr-sanabi&layout=compact&theme=default&hide_border=true"
+    alt="Top languages" height="165" />
+</picture>
 
 ---
 
-### Email Extractor Lite
+📬 [sanabi.dev@proton.me](mailto:sanabi.dev@proton.me) · 📍 Poland
 
-Python CLI tool that extracts publicly visible business emails from provided public URLs and contact pages.
-
-Key features:
-
-* Extracts emails from visible page text
-* Extracts emails from `mailto:` links
-* Finds contact/about/impressum pages
-* Deduplicates emails
-* Exports structured CSV output
-* Includes a compliance-focused README
-
-Best fit for: public contact page extraction, safe email extraction from provided URLs, CSV reporting.
-
----
-
-### CSV Cleaner CLI
-
-Command-line tool for cleaning messy CSV files: normalizing headers, trimming values, detecting missing fields, removing duplicates, and exporting cleaned CSV output.
-
-Best fit for: spreadsheet cleanup, CSV preprocessing, data hygiene tasks.
-
----
-
-### URL Status Checker
-
-Python CLI tool that checks a list of URLs, returns status codes, request errors, response times, and exports results to a CSV report.
-
-Best fit for: broken link checks, website audits, URL monitoring, simple QA reports.
-
----
-
-### Keyword Page Scanner
-
-Python CLI tool that scans web pages for specific keywords and exports matched pages, matched keywords, counts, and request status to CSV.
-
-Best fit for: keyword monitoring, page checks, simple content audits.
-
----
-
-### Python Practice Labs
-
-A collection of smaller Python practice projects and experiments, including scraping basics, Playwright basics, CSV/JSON processing, data validation, and CLI utilities.
-
----
-
-## Current Learning Direction
-
-I’m currently improving in:
-
-* Shopify and e-commerce data extraction
-* Product catalog scraping
-* API data extraction
-* JSON to CSV / CSV to JSON workflows
-* CSV cleaning and validation
-* Browser automation with Playwright
-* Small automation scripts for practical business tasks
-* Building clean portfolio projects with clear documentation
-
----
-
-## About Me
-
-* Based in Poland
-* Focused on practical Python automation and data extraction
-* Building small, reliable tools that produce clean outputs
-* Interested in freelance tasks involving APIs, CSV/JSON, scraping, monitoring, and automation
-
----
-
-## Contact
-
-Email: [sanabi.dev@proton.me](mailto:sanabi.dev@proton.me)
-
----
-
-⭐ If you find my projects useful, consider giving them a star.
+⭐ If a tool helped you, a star goes a long way.
