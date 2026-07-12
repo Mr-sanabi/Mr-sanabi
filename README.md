@@ -1,65 +1,119 @@
-# Hi, I'm Sanabi 👋
+<div align="center">
+  <img src="./assets/profile-banner.svg" alt="Sanabi — Python, Data Extraction and Automation" width="100%" />
+</div>
 
-**Python · Data Extraction · Automation**
+<br>
 
-I build Python tools that pull structured data from the web and turn it into clean, usable outputs — CSV, JSON, SQLite, whatever the job needs.
+<div align="center">
 
-🟢 **Open to freelance** — data extraction, scraping, automation tasks
+**Python developer building reliable data extraction, ETL, and automation tools.**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![requests](https://img.shields.io/badge/requests-2CA5E0?style=flat-square\&logo=python\&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=flat-square\&logo=python\&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square\&logo=playwright\&logoColor=white)
-![CSV](https://img.shields.io/badge/CSV%20%2F%20JSON-555?style=flat-square\&logo=files\&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square\&logo=sqlite\&logoColor=white)
-![Shopify](https://img.shields.io/badge/Shopify%20API-96BF48?style=flat-square\&logo=shopify\&logoColor=white)
+I turn public web pages, APIs, and raw datasets into clean, validated outputs — **CSV, JSON, SQLite, and structured reports**.
+
+🟢 **Open to freelance work** in web scraping, data extraction, data cleaning, and Python automation.
+
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![pytest](https://img.shields.io/badge/pytest-testing-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://pytest.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-foundations-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Playwright](https://img.shields.io/badge/Playwright-browser%20automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://playwright.dev/python/)
+[![SQLite](https://img.shields.io/badge/SQLite-data%20storage-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Docker](https://img.shields.io/badge/Docker-foundations-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+
+</div>
+
+---
+
+## Featured work
+
+| Project | What it demonstrates |
+|---|---|
+| **[Product Catalog Data Pipeline](https://github.com/Mr-sanabi/product-catalog-data-pipeline)** | Flagship multi-source ETL pipeline with a shared 13-field schema, normalization, validation, rejected-record tracking, stable deduplication, analytics, reporting, and a 24-test suite. |
+| **[Multi-page Catalog Scraper](https://github.com/Mr-sanabi/multi-page-catalog-scraper)** | Modular scraping pipeline with configurable pagination, structured CSV/JSON exports, Markdown reporting, logging, validation, and graceful failure handling. |
+| **[Shopify Collection Exporter Lite](https://github.com/Mr-sanabi/shopify-collection-exporter-lite)** | Collection-specific Shopify product and variant extraction into a practical CSV format for e-commerce workflows. |
+| **[Shizuka](https://github.com/Mr-sanabi/Shizuka)** | Windows desktop productivity launcher with focus/break tracking, distraction controls, app restoration, autostart, and daily session statistics. |
 
 ---
 
 ## What I build
 
-| Project                                                                                           | What it does                                                                                     |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [shopify-collection-exporter-lite](https://github.com/Mr-sanabi/shopify-collection-exporter-lite) | Exports product variants from Shopify collections to CSV — single URL or bulk from a `.txt` file |
-| [csv-to-sqlite-loader](https://github.com/Mr-sanabi/csv-to-sqlite-loader)                         | Imports CSV files into SQLite database tables and verifies the result with SQL row counts        |
-| [website-change-monitor-lite](https://github.com/Mr-sanabi/website-change-monitor-lite)           | Monitors public web pages for content changes using hashing and exports a CSV report             |
-| [product-catalog-scraper](https://github.com/Mr-sanabi/product-catalog-scraper)                   | Scrapes names, prices, ratings and URLs from public category pages with pagination support       |
-| [api-to-csv-tool](https://github.com/Mr-sanabi/api-to-csv-tool)                                   | Fetches JSON from a public API, flattens nested fields, exports clean CSV records                |
-| [public-directory-extractor](https://github.com/Mr-sanabi/public-directory-extractor)             | Extracts listings from multi-page directories into structured CSV output                         |
-| [csv-cleaner-cli](https://github.com/Mr-sanabi/csv-cleaner-cli)                                   | Normalizes headers, trims values, removes duplicates from messy CSV files                        |
-| [url-status-checker](https://github.com/Mr-sanabi/url-status-checker)                             | Audits a list of URLs — status codes, response times, error report in CSV                        |
-| [keyword-page-scanner](https://github.com/Mr-sanabi/keyword-page-scanner)                         | Scans web pages for specified keywords, exports matches and counts to CSV                        |
-| [email-extractor-lite](https://github.com/Mr-sanabi/email-extractor-lite)                         | Finds public emails in page text and `mailto:` links, deduplicates, exports to CSV               |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Data extraction
+
+- Multi-page web scraping
+- API and nested JSON processing
+- JavaScript-rendered pages with Playwright
+- Shopify catalog and variant exports
+- Public directory and contact extraction
+
+</td>
+<td width="33%" valign="top">
+
+### Data pipelines
+
+- Schema normalization
+- Field-level validation
+- Deduplication and rejected records
+- CSV, JSON, and SQLite workflows
+- Data-quality and analytics reports
+
+</td>
+<td width="33%" valign="top">
+
+### Automation foundations
+
+- CLI applications with `argparse`
+- Structured logging and error handling
+- Automated tests with `pytest`
+- FastAPI and Docker foundations
+- Reusable project templates and dev tooling
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Tech stack
+## Repository map
 
-**Scraping:** `requests` · `BeautifulSoup` · `Playwright`<br>
-**Data:** `CSV` · `JSON` · nested JSON flattening · REST APIs<br>
-**Database:** `SQLite` · SQL basics<br>
-**CLI:** `argparse` · `logging` · modular project structure<br>
-**Core:** Python · Git · GitHub
+**Portfolio systems**  
+[product-catalog-data-pipeline](https://github.com/Mr-sanabi/product-catalog-data-pipeline) · [multi-page-catalog-scraper](https://github.com/Mr-sanabi/multi-page-catalog-scraper) · [job-scraper-project](https://github.com/Mr-sanabi/job-scraper-project) · [website-change-monitor-lite](https://github.com/Mr-sanabi/website-change-monitor-lite)
+
+**Focused data tools**  
+[csv-cleaner-cli](https://github.com/Mr-sanabi/csv-cleaner-cli) · [csv-to-sqlite-loader](https://github.com/Mr-sanabi/csv-to-sqlite-loader) · [api-to-csv-tool](https://github.com/Mr-sanabi/api-to-csv-tool) · [email-extractor-lite](https://github.com/Mr-sanabi/email-extractor-lite) · [url-status-checker](https://github.com/Mr-sanabi/url-status-checker)
+
+**Labs and infrastructure**  
+[fastapi-data-tool-lab](https://github.com/Mr-sanabi/fastapi-data-tool-lab) · [playwright-product-scrape](https://github.com/Mr-sanabi/playwright-product-scrape) · [python-practice-labs](https://github.com/Mr-sanabi/python-practice-labs) · [python-cli-data-tool-template](https://github.com/Mr-sanabi/python-cli-data-tool-template) · [developer-helper-commands](https://github.com/Mr-sanabi/developer-helper-commands)
+
+---
+
+## Current direction
+
+I am moving from isolated one-purpose scripts toward larger, portfolio-grade systems with multiple sources, explicit data contracts, automated tests, reproducible pipelines, APIs, and clearer operational documentation.
+
+Current focus: **data extraction engineering, product/catalog data, automation, and reliable Python delivery**.
 
 ---
 
-## GitHub stats
+## GitHub activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats-omega-eight-68.vercel.app/api?username=Mr-sanabi&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <img src="https://github-readme-stats-omega-eight-68.vercel.app/api?username=Mr-sanabi&show_icons=true&theme=default&hide_border=true&count_private=true"
-    alt="GitHub stats" height="165" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats-omega-eight-68.vercel.app/api/top-langs/?username=Mr-sanabi&layout=compact&theme=github_dark&hide_border=true" />
-  <img src="https://github-readme-stats-omega-eight-68.vercel.app/api/top-langs/?username=Mr-sanabi&layout=compact&theme=default&hide_border=true"
-    alt="Top languages" height="165" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-eight-68.vercel.app/api?username=Mr-sanabi&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+    <img src="https://github-readme-stats-omega-eight-68.vercel.app/api?username=Mr-sanabi&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub statistics" height="165" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-eight-68.vercel.app/api/top-langs/?username=Mr-sanabi&layout=compact&theme=github_dark&hide_border=true" />
+    <img src="https://github-readme-stats-omega-eight-68.vercel.app/api/top-langs/?username=Mr-sanabi&layout=compact&theme=default&hide_border=true" alt="Most used languages" height="165" />
+  </picture>
+</div>
 
 ---
+
+<div align="center">
 
 📬 [sanabi.dev@proton.me](mailto:sanabi.dev@proton.me) · 📍 Poland
 
-⭐ If a tool helped you, a star goes a long way.
+</div>
