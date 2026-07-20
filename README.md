@@ -79,10 +79,10 @@ I turn public web pages, APIs, and raw datasets into clean, validated outputs �
 ## Repository map
 
 **Portfolio systems**  
-[product-catalog-data-pipeline](https://github.com/Mr-sanabi/product-catalog-data-pipeline) · [multi-page-catalog-scraper](https://github.com/Mr-sanabi/multi-page-catalog-scraper) · [job-scraper-project](https://github.com/Mr-sanabi/job-scraper-project) · [website-change-monitor-lite](https://github.com/Mr-sanabi/website-change-monitor-lite)
+[product-catalog-data-pipeline](https://github.com/Mr-sanabi/product-catalog-data-pipeline) · [multi-page-catalog-scraper](https://github.com/Mr-sanabi/multi-page-catalog-scraper) · [job-scraper-project](https://github.com/Mr-sanabi/job-scraper-project) · [website-change-monitor-lite](https://github.com/Mr-sanabi/website-change-monitor-lite) · [prozorro-tender-monitor](https://github.com/Mr-sanabi/prozorro-tender-monitor)
 
 **Focused data tools**  
-[csv-cleaner-cli](https://github.com/Mr-sanabi/csv-cleaner-cli) · [csv-to-sqlite-loader](https://github.com/Mr-sanabi/csv-to-sqlite-loader) · [api-to-csv-tool](https://github.com/Mr-sanabi/api-to-csv-tool) · [email-extractor-lite](https://github.com/Mr-sanabi/email-extractor-lite) · [url-status-checker](https://github.com/Mr-sanabi/url-status-checker)
+[csv-cleaner-cli](https://github.com/Mr-sanabi/csv-cleaner-cli) · [csv-to-sqlite-loader](https://github.com/Mr-sanabi/csv-to-sqlite-loader) · [api-to-csv-tool](https://github.com/Mr-sanabi/api-to-csv-tool) · [json-flattener-cli](https://github.com/Mr-sanabi/json-flattener-cli) · [email-extractor-lite](https://github.com/Mr-sanabi/email-extractor-lite) · [url-status-checker](https://github.com/Mr-sanabi/url-status-checker) · [price-monitor](https://github.com/Mr-sanabi/price-monitor)
 
 **Labs and infrastructure**  
 [fastapi-data-tool-lab](https://github.com/Mr-sanabi/fastapi-data-tool-lab) · [playwright-product-scrape](https://github.com/Mr-sanabi/playwright-product-scrape) · [python-practice-labs](https://github.com/Mr-sanabi/python-practice-labs) · [python-cli-data-tool-template](https://github.com/Mr-sanabi/python-cli-data-tool-template) · [developer-helper-commands](https://github.com/Mr-sanabi/developer-helper-commands)
