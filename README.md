@@ -1,4 +1,4 @@
-# Oleksandr
+# Sanabi
 
 I'm learning Python by building small tools for data extraction and automation.
 Most of my projects work with websites, APIs, and CSV files.
